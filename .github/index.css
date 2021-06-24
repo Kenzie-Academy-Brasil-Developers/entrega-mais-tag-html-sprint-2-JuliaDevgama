@@ -9,6 +9,11 @@
 
 }
 
+ #kenzie {
+    background: lightblue;
+    font-weight: bold;
+}
+
 body {
     background-image: linear-gradient(to right, rgba(237, 241, 243, 0.973), rgb(151, 214, 179));}
 h1 {
@@ -42,6 +47,35 @@ img {
 hr {
     background: tomato;
 }
-span {
+#conquistou {
     text-shadow: 0 0 3px #FF0000;
+}
+.oque-faco {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 4px dashed #d4a9d4;
+}
+.horas-vagas h2{
+    text-align: left;
+}
+a[href="https://developer.mozilla.org/pt-BR/"]:hover{
+    color: rgb(51, 116, 116);
+}
+.horas-vagas {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 4px dashed burlywood;
+    padding: 10px;
+}
+.descricao .curiosidades{
+    border: 1px dashed rgb(207, 84, 84);
+    width: 50%;
+}
+.descricao {
+    column-count: 2;
+    column-gap: 40px;
+    padding: 20px;
+}
+.curiosidades {
+    margin-left: 190px;
 }
