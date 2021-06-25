@@ -12,12 +12,13 @@
  #kenzie {
     background: lightblue;
     font-weight: bold;
+    font-style: italic;
 }
 
 body {
     background-image: linear-gradient(to right, rgba(237, 241, 243, 0.973), rgb(151, 214, 179));}
 h1 {
-    color: blue;
+    color: rgb(220, 234, 235);
     border: 1px solid black;
     text-align: center;
     background: coral;
